@@ -1,0 +1,111 @@
+#fundo{
+    background-color: rgb(172, 221, 235);
+
+}
+
+#principal{
+    background-image: url(../img/fundo2.webp);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 26em;
+
+}
+
+.dados-viagens{
+    margin-top: 6em;
+    border: solid white;
+    background-color: rgb(198, 230, 198);
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.nav-link{
+    color: black;
+    transition: all .5s;
+    font-weight: bold;
+    margin-left: 7em;
+}
+.nav-link:hover{
+    border: 10px solid #781f40;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+    border-radius: 10%;
+   border: solid 1px rgb(36,172,215);
+}
+
+#navegacao-cadastro{
+    background-color: rgb(67, 186, 207);
+    opacity: 0.8;
+}
+
+.botao-login {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    transition: all 0.4s;
+}
+
+.botao-login:hover{
+    -webkit-filter: blur(1px);
+    filter:blur(1px);
+    font-weight: bold;
+    
+}
+
+
+
+.titulo-header{
+
+    margin-top: 5em;
+    color: black;
+    font-weight: bold;
+}
+
+.viaje-mundo{
+    font-weight: bolder;
+    display: inline;
+}
+
+/*final do header*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin: 30px 0 ;
+}
+
+
+.place-detail {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 6px 9px 5px 0px rgba(173,157,173,0.5);
+    width: 80%;
+    height: 400%;
+    background-color: white;
+    padding: 30px;
+
+}
+
+.place-image {
+    width: 40%;
+    height: 80%;
+    
+}
+
+.place-detail:hover {
+    border: 10px solid #781f40;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.1);
+   border: solid 1px rgb(36,172,215);
+}

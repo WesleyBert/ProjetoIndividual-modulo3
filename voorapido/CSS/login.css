@@ -1,0 +1,103 @@
+#email{
+    width: 60%;
+}
+
+#password {
+    width: 58%;
+}
+
+.part1 {
+    background-image: url(../img/fundoimagem.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    align-self: center;
+    
+  }
+
+  
+
+.cadastro{
+        background: white;
+        width: 35%;
+        height: 85%;
+        border-radius: 10%;
+        margin-top: 20px;
+        -webkit-box-shadow: 9px -5px 24px -8px rgba(0,0,0,0.56);
+        -moz-box-shadow: 9px -5px 24px -8px rgba(0,0,0,0.56);
+        box-shadow: 9px -5px 24px -8px rgba(0,0,0,0.56);
+        margin-left: 20em;
+        display: flex;
+        flex-direction: column;
+
+       
+        
+    }
+
+.titulo{
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+        margin-top: 2em;
+        box-sizing: content-box;
+    }
+    
+.informacoes {
+        margin: 1em;
+    }
+
+.primeiro  {
+        font-weight: bold;
+        margin-top: 5px;
+        }
+
+
+ .cadastro-modal {
+     min-width: 20%;
+     padding: 40px;
+  }
+
+  .botao-login {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    transition: all 0.4s;
+}
+
+.botao-login:hover{
+    -webkit-filter: blur(1px);
+    filter:blur(1px);
+    font-weight: bold;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+.form-group  {
+    display: flex;
+    justify-content: center;
+}
+
+.form-check input, label{
+    display: inline;
+    font-weight: bold;
+    margin-top: 2px;
+    
+}
+
+label{
+    padding: 10px;
+}
+
+.col-2.p-5 {
+    bottom:1em;
+    padding: 4em;
+ }
+
